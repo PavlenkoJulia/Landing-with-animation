@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500&family=Raleway&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Landing</title>
+    <script src="./libs/gsap/gsap.min.js" defer></script>
+    <script src="./libs/gsap/ScrollTrigger.min.js" defer></script>
+    <script src="./libs/gsap/ScrollSmoother.min.js" defer></script>
+    <script src="app.js" defer></script>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="content">
+            <header class="hero__section">
+                <img data-speed=".6" data-lag=".5" class="hero__img" src="./images/hero.png" alt="picture">
+        
+                <div class="container">
+                    <div data-speed=".7" class="main__wrapper">
+                        <h1 class="main__title">creative scroll</h1>
+                    </div>
+                </div>
+            </header>
+        
+            <main>
+                <section class="portfolio__section">
+                    <div class="container">
+                        <div class="gallery">
+                            <div data-speed="1" class="gallery__left">
+                                <img class="gallery__item" src="./images/1.jpg" alt="first work">
+                                <img class="gallery__item" src="./images/2.jpg" alt="second work">
+        
+                                <div class="text-wrapper gallery__item">
+                                    <h2 class="text-wrapper__title">Creative floating scroll with amazing parallax effect</h2>
+                                    <p class="text-wrapper__text">Lorem ipsum dolor sit amet consectetur. Lorem ipsum dolor sit amet consectetur.
+                                        Lorem ipsum dolor sit amet consectetur.
+                                    </p>
+                                </div>
+        
+                                <img class="gallery__item" src="./images/3.jpg" alt="third work">
+                            </div>
+
+                            <div data-speed="1.1" class="gallery__right">
+                                <div class="text-wrapper gallery__item">
+                                    <h2 class="text-wrapper__title">Creative floating scroll with amazing parallax effect</h2>
+                                    <p class="text-wrapper__text">Lorem ipsum dolor sit amet consectetur. Lorem ipsum dolor sit amet consectetur.
+                                        Lorem ipsum dolor sit amet consectetur.
+                                    </p>
+                                </div>
+        
+                                <img class="gallery__item" src="./images/4.jpg" alt="forth work">
+                                <img class="gallery__item" src="./images/5.jpg" alt="fifth work">
+                                <img class="gallery__item" src="./images/6.jpg" alt="sixth work">
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </main>
+        </div>
+    </div>
+</body>
+</html>
